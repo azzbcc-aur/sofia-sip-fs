@@ -2,7 +2,7 @@
 # Contributor: Clarence <xjh.azzbcc@gmail.com>
 _pkgname=sofia-sip
 pkgname=(${_pkgname}-fs ${_pkgname}-docs)
-pkgver=1.13.6
+pkgver=1.13.9
 pkgrel=1
 pkgdesc="An open-source SIP User-Agent library (FreeSWITCH version)"
 arch=('x86_64' 'i686')
@@ -10,7 +10,7 @@ url="https://github.com/freeswitch/sofia-sip"
 makedepends=(doxygen)
 license=('LGPL')
 source=("$_pkgname-$pkgver.tar.gz::https://github.com/freeswitch/$_pkgname/archive/v$pkgver.tar.gz")
-sha256sums=('6f3cb48a35929abd3454087b32ad4c75fa5fe50fab8a9cc6f98559e6fd1bd64b')
+sha256sums=('3e7bfe9345e7d196bb13cf2c6e758cec8d959f1b9dbbb3bd5459b004f6f65c6c')
 
 prepare() {
   cd $_pkgname-$pkgver
